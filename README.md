@@ -4,6 +4,11 @@
 
 ---
 
+## Main Project Files
+
+- Starbucks_Capstone_Project.pdf
+- Starbucks_Capstone_Project.ipynb
+
 ## Description
 
 - Using the raw JSON files (transcript, profile, and portfolio), the goal is to create a model that can predict if a customer will complete an offer or not.
