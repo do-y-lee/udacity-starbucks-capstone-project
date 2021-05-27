@@ -1,0 +1,21 @@
+name: udacity-starbucks-capstone-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.*
+  - matplotlib=3.4.1
+  - seaborn=0.11.*
+  - scikit-learn=0.24.*
+  - scipy=1.6.2
+  - statsmodels=0.12.2
+  - pandas=1.2.4
+  - pip=21.1.1
+  - requests=2.25.1
+  - plotly=4.14.3
+  - boto3=1.17.65
+  - featuretools==0.24.0
+  - featuretools-sklearn-transformer=0.2.0
+  - featuretools-tsfresh-primitives=0.4.0
+  - featuretools-update-checker=1.0.2
+  - dask=2021.4.0
