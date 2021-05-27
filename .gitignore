@@ -9,6 +9,8 @@ __pycache__/
 .idea/
 .idea/workspace.xml
 
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/
