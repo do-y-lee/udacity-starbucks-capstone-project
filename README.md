@@ -1,4 +1,5 @@
 # Starbucks Capstone Project
+### Udacity Machine Learning Engineer Nanodegree
 
 > Predicting the best offer type for every customer with the highest probability of completion.
 
@@ -11,10 +12,10 @@
 
 ## Description
 
-- Using the raw JSON files (transcript, profile, and portfolio), the goal is to create a model that can predict if a customer will complete an offer or not.
-- The prediction pipeline is composed of eight random forest models for each reward-driven offers.
-- The pipeline identifies the positive predictions and identifies the offer with the highest prediction probability as the winner.
-- The customers who received all negative predictions are assigned a random offer from top four performing offers.
+- Using the raw JSON files (transcript, profile, and portfolio), the goal is to create a supervised classification model for every offer type (e.g., BOGO-10-10-120) that can predict if a customer will complete an offer or not.
+- The prediction pipeline is composed of eight random forest models, where each model represents one reward-driven offer.
+- The end-to-end model pipeline identifies the positive predictions, and the offer with the highest prediction probability is selected as the winner.
+- Customers who receive all negative predictions are assigned a random offer from top four performing offers.
 
 
 ## Full Pipeline Design
@@ -39,7 +40,7 @@
 | preprocessor_feat_engine_layer_1.py | Feature engineering to produce train and test v1. |
 | preprocessor_feat_engine_layer_2.py | Feature engineering to produce train and test v3. |
 | preprocessor_feat_select_pipeline.py | Feature selection to identify most important features per offer type. |
-| model_train_predict_pipeline.py | Training models using train v3 sets and generate predictions using test v3 sets.  |
-| model_make_recommendation_pipeline.py | The logic takes the saved test predictions and makes the decision of best offer per customer. |
-| output_model_stats.py | Generates model diagnostic metrics and plots for train and test sets. |
+| model_train_predict_pipeline.py | The script trains models using train v3 sets, generates predictions using test v3 sets, and pickles the trained models.  |
+| model_make_recommendation_pipeline.py | The script takes the saved test predictions and decides on the best offer (offer with the highest prediction probability) for each customer. |
+| output_model_stats.py | Generates model diagnostic metrics as well as diagnostic plots using train and test sets. |
 
