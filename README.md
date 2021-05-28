@@ -13,7 +13,7 @@
 ## Description
 
 - Using the raw JSON files (transcript, profile, and portfolio), the goal is to create a supervised classification model for every offer type (e.g., BOGO-10-10-120) that can predict if a customer will complete an offer or not.
-- The prediction pipeline is composed of eight random forest models, where each model represents one reward-driven offer.
+- Eight random forest models are trained and saved, where each model predicts the completion of a single offer type by a customer.
 - The end-to-end model pipeline identifies the positive predictions, and the offer with the highest prediction probability is selected as the winner.
 - Customers who receive all negative predictions are assigned a random offer from top four performing offers.
 
