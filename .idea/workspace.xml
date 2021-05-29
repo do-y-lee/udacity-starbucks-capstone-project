@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a329008-3288-4991-aa64-32519c3d1d0c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/datamarts/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocessing/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train_predict_recommend/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datamart_offers_funnel_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datamarts/datamart_offers_funnel_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datamart_transaction_engagement.py" beforeDir="false" afterPath="$PROJECT_DIR$/datamarts/datamart_transaction_engagement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_make_recommendation_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_predict_recommend/model_make_recommendation_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model_train_predict_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_predict_recommend/model_train_predict_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_feat_engine_layer_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_feat_engine_layer_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessor_feat_select_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessor_feat_select_pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,10 +44,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/train_predict_recommend" />
+      <recent name="$PROJECT_DIR$/datamarts" />
+      <recent name="$PROJECT_DIR$/preprocessing" />
       <recent name="$PROJECT_DIR$/notebooks" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.datamart_transaction_engagement">
+  <component name="RunManager" selected="Python.model_make_recommendation_pipeline">
     <configuration name="datamart_transaction_engagement" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="udacity-starbucks-capstone-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,7 +64,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datamart_transaction_engagement.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/datamarts/datamart_transaction_engagement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +118,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_make_recommendation_pipeline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_predict_recommend/model_make_recommendation_pipeline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +140,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/model_train_predict_pipeline.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_predict_recommend/model_train_predict_pipeline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,9 +195,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model_make_recommendation_pipeline" />
         <item itemvalue="Python.datamart_transaction_engagement" />
         <item itemvalue="Python.output_model_stats" />
-        <item itemvalue="Python.model_make_recommendation_pipeline" />
         <item itemvalue="Python.model_train_predict_pipeline" />
         <item itemvalue="Python.test" />
       </list>
@@ -200,6 +214,8 @@
       <workItem from="1620159085979" duration="5000" />
       <workItem from="1620159147218" duration="127647000" />
       <workItem from="1622235390322" duration="1381000" />
+      <workItem from="1622236867768" duration="212000" />
+      <workItem from="1622275521942" duration="791000" />
     </task>
     <servers />
   </component>
@@ -209,6 +225,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$preprocessors.coverage" NAME="preprocessors Coverage Results" MODIFIED="1620681995902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$test.coverage" NAME="test Coverage Results" MODIFIED="1621545005222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$model_make_recommendation_pipeline.coverage" NAME="model_make_recommendation_pipeline Coverage Results" MODIFIED="1622276099705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$make_recommendation_pipeline.coverage" NAME="make_recommendation_pipeline Coverage Results" MODIFIED="1621572487665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$output_model_stats.coverage" NAME="output_model_stats Coverage Results" MODIFIED="1621901989957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$main.coverage" NAME="main Coverage Results" MODIFIED="1620160816188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

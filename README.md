@@ -35,12 +35,12 @@
 | Script Name | Description |
 | ---- | ----------- |
 | base_transforms/base_transforms_df.py | Contains class object to create base dataframes. |
-| datamart_offer_funnel_view.py | Offer funnel data mart. |
-| datamart_transaction_engagement.py | Transaction engagement data mart. |
-| preprocessor_feat_engine_layer_1.py | Feature engineering to produce train and test v1. |
-| preprocessor_feat_engine_layer_2.py | Feature engineering to produce train and test v3. |
-| preprocessor_feat_select_pipeline.py | Feature selection to identify most important features per offer type. |
-| model_train_predict_pipeline.py | The script trains models using train v3 sets, generates predictions using test v3 sets, and pickles the trained models.  |
-| model_make_recommendation_pipeline.py | The script takes the saved test predictions and decides on the best offer (offer with the highest prediction probability) for each customer. |
+| datamarts/datamart_offer_funnel_view.py | Offer funnel data mart. |
+| datamarts/datamart_transaction_engagement.py | Transaction engagement data mart. |
+| preprocessing/preprocessor_feat_engine_layer_1.py | Feature engineering to produce train and test v1. |
+| preprocessing/preprocessor_feat_engine_layer_2.py | Feature engineering to produce train and test v3. |
+| preprocessing/preprocessor_feat_select_pipeline.py | Feature selection to identify most important features per offer type. |
+| train_predict_recommend/model_train_predict_pipeline.py | The script trains models using train v3 sets, generates predictions using test v3 sets, and pickles the trained models.  |
+| train_predict_recommend/model_make_recommendation_pipeline.py | The script takes the saved test predictions and decides on the best offer (offer with the highest prediction probability) for each customer. |
 | output_model_stats.py | Generates model diagnostic metrics as well as diagnostic plots using train and test sets. |
 
