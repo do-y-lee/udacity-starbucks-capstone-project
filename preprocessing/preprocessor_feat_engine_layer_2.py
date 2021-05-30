@@ -204,6 +204,8 @@ if __name__ == '__main__':
 
     X_train_v3 = create_train_test_v3(X_train_v2)
     X_test_v3 = create_train_test_v3(X_test_v2)
+    X_train_v3.fillna(0, inplace = True)
+    X_test_v3.fillna(0, inplace = True)
 
     try:
         X_train_v3.to_csv(train_v3_file_path, index = False, compression = 'gzip')

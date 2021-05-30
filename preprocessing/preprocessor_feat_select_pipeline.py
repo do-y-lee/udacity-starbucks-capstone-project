@@ -63,6 +63,7 @@ def feature_selection_per_offer_type(X):
         train = X[X.offer_type_v2 == offer_type]
         train.drop(columns = config.DROP_FEAT_SELECT_COLUMNS, inplace = True)
         train.drop_duplicates(inplace = True)
+        train.fillna(0, inplace = True)
 
         # create X and y sets
         X_train = train.iloc[:, :-1]

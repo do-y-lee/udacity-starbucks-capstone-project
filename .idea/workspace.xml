@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0a329008-3288-4991-aa64-32519c3d1d0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/starbucks_offers_funnel_analysis.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/data/starbucks_offers_funnel_analysis.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/starbucks_transaction_engagement.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/data/starbucks_transaction_engagement.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_starbucks.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_starbucks.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test_v3_starbucks.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/data/test_v3_starbucks.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_starbucks.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/data/train_starbucks.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_v3_starbucks.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/data/train_v3_starbucks.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datamarts/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/datamarts/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datamarts/datamart_offers_funnel_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/datamarts/datamart_offers_funnel_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datamarts/datamart_transaction_engagement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/accuracy_test_scores.json" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/accuracy_test_scores.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/bogo-10-10-120_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/bogo-10-10-120_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/bogo-10-10-168_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/bogo-10-10-168_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/bogo-5-5-120_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/bogo-5-5-120_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/bogo-5-5-168_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/bogo-5-5-168_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/discount-2-10-168_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/discount-2-10-168_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/discount-2-10-240_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/discount-2-10-240_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/discount-3-7-168_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/discount-3-7-168_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/predictions/discount-5-20-240_test_predictions.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/predictions/discount-5-20-240_test_predictions.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/recommendations/model_recommendations.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/recommendations/model_recommendations.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/recommendations/random_recommendations.csv.gz" beforeDir="false" afterPath="$PROJECT_DIR$/output/recommendations/random_recommendations.csv.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessor_feat_select_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/preprocessor_feat_select_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_predict_recommend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_predict_recommend/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/bogo-10-10-120_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/bogo-10-10-120_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/bogo-10-10-168_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/bogo-10-10-168_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/bogo-5-5-120_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/bogo-5-5-120_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/bogo-5-5-168_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/bogo-5-5-168_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/discount-2-10-168_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/discount-2-10-168_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/discount-2-10-240_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/discount-2-10-240_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/discount-3-7-168_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/discount-3-7-168_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/discount-5-20-240_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/discount-5-20-240_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trained_models/training_feature_sets.json" beforeDir="false" afterPath="$PROJECT_DIR$/trained_models/training_feature_sets.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +63,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -103,7 +140,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_predict_recommend" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -125,7 +162,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_predict_recommend" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -139,7 +176,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="output_model_stats" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="preprocessor_feat_engine_layer_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="udacity-starbucks-capstone-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,12 +184,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/output_model_stats.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,7 +198,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="preprocessor_feat_engine_layer_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="udacity-starbucks-capstone-project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -169,12 +206,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preprocessor_feat_engine_layer_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="udacity-starbucks-capstone-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocessor_feat_engine_layer_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="preprocessor_feat_select_pipeline" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="udacity-starbucks-capstone-project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/preprocessing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing/preprocessor_feat_select_pipeline.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -186,10 +267,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.model_make_recommendation_pipeline" />
-        <item itemvalue="Python.datamart_transaction_engagement" />
-        <item itemvalue="Python.output_model_stats" />
         <item itemvalue="Python.model_train_predict_pipeline" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.preprocessor_feat_engine_layer_2" />
+        <item itemvalue="Python.preprocessor_feat_select_pipeline" />
+        <item itemvalue="Python.preprocessor_feat_engine_layer_1" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +286,12 @@
       <workItem from="1620159147218" duration="127647000" />
       <workItem from="1622235390322" duration="1381000" />
       <workItem from="1622236867768" duration="212000" />
-      <workItem from="1622275521942" duration="1310000" />
+      <workItem from="1622275521942" duration="1550000" />
+      <workItem from="1622277836384" duration="86000" />
+      <workItem from="1622278402213" duration="909000" />
+      <workItem from="1622279337291" duration="24000" />
+      <workItem from="1622279676872" duration="11000" />
+      <workItem from="1622279768370" duration="7195000" />
     </task>
     <servers />
   </component>
@@ -213,15 +299,22 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$preprocessors.coverage" NAME="preprocessors Coverage Results" MODIFIED="1620681995902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$test.coverage" NAME="test Coverage Results" MODIFIED="1621545005222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$model_make_recommendation_pipeline.coverage" NAME="model_make_recommendation_pipeline Coverage Results" MODIFIED="1622276099705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$make_recommendation_pipeline.coverage" NAME="make_recommendation_pipeline Coverage Results" MODIFIED="1621572487665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$output_model_stats.coverage" NAME="output_model_stats Coverage Results" MODIFIED="1621901989957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$main.coverage" NAME="main Coverage Results" MODIFIED="1620160816188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$datamart_transaction_engagement.coverage" NAME="datamart_transaction_engagement Coverage Results" MODIFIED="1622065316989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$transaction_engagement.coverage" NAME="transaction_engagement Coverage Results" MODIFIED="1621056567848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$feature_engine_pipeline_step_2.coverage" NAME="feature_engine_pipeline_step_2 Coverage Results" MODIFIED="1621293410738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$model_train_predict_pipeline.coverage" NAME="model_train_predict_pipeline Coverage Results" MODIFIED="1622350551510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_predict_recommend" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$preprocessor_feat_engine_layer_2.coverage" NAME="preprocessor_feat_engine_layer_2 Coverage Results" MODIFIED="1622350506278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$test__1_.coverage" NAME="datamart_transaction_engagement Coverage Results" MODIFIED="1622317186048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datamarts" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$f1.coverage" NAME="f1 Coverage Results" MODIFIED="1622317313674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$preprocessors.coverage" NAME="preprocessors Coverage Results" MODIFIED="1620681995902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$make_recommendation_pipeline.coverage" NAME="make_recommendation_pipeline Coverage Results" MODIFIED="1621572487665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$model_make_recommendation_pipeline.coverage" NAME="model_make_recommendation_pipeline Coverage Results" MODIFIED="1622350609902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train_predict_recommend" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$preprocessor_feat_engine_layer_1.coverage" NAME="preprocessor_feat_engine_layer_1 Coverage Results" MODIFIED="1622316332869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$transaction_engagement.coverage" NAME="transaction_engagement Coverage Results" MODIFIED="1621056567848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$datamart_transaction_engagement.coverage" NAME="datamart_transaction_engagement Coverage Results" MODIFIED="1622316649851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$main.coverage" NAME="main Coverage Results" MODIFIED="1620160816188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$train_predict_pipeline.coverage" NAME="train_predict_pipeline Coverage Results" MODIFIED="1621572386570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$test.coverage" NAME="test Coverage Results" MODIFIED="1621545005222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$output_model_stats.coverage" NAME="output_model_stats Coverage Results" MODIFIED="1621901989957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$preprocessor_feat_select_pipeline.coverage" NAME="preprocessor_feat_select_pipeline Coverage Results" MODIFIED="1622350122540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/preprocessing" />
+    <SUITE FILE_PATH="coverage/udacity_starbucks_capstone_project$datamart_offers_funnel_view.coverage" NAME="datamart_offers_funnel_view Coverage Results" MODIFIED="1622317172391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/datamarts" />
   </component>
 </project>

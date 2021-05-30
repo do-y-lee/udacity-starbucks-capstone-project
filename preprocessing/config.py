@@ -1,10 +1,10 @@
 # list of directories
-DATA_DIR = 'data'
-OUTPUT_DIR = 'output'
-DIAGNOSTIC_METRICS_DIR = 'output/diagnostic_metrics'
-PREDICTIONS_DIR = 'output/predictions'
-RECOMMENDATIONS_DIR = 'output/recommendations'
-TRAINED_MODELS_DIR = 'trained_models'
+DATA_DIR = '../data'
+OUTPUT_DIR = '../output'
+DIAGNOSTIC_METRICS_DIR = '../output/diagnostic_metrics'
+PREDICTIONS_DIR = '../output/predictions'
+RECOMMENDATIONS_DIR = '../output/recommendations'
+TRAINED_MODELS_DIR = '../trained_models'
 
 # original raw json files
 PORTFOLIO_FILE = 'portfolio.json'

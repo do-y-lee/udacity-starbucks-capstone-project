@@ -92,8 +92,8 @@ def main():
     """
     start_time = datetime.now()
     # read in the json files
-    portfolio = pd.read_json(os.path.join(config.DATA_DIR, config.PORTFOLIO_FILE), orient = 'records', lines = True)
-    transcript = pd.read_json(os.path.join(config.DATA_DIR, config.TRANSCRIPT_FILE), orient = 'records', lines = True)
+    portfolio = pd.read_json(os.path.join(config.DATA_DIR, config.PORTFOLIO_FILE), orient='records', lines=True)
+    transcript = pd.read_json(os.path.join(config.DATA_DIR, config.TRANSCRIPT_FILE), orient='records', lines=True)
 
     # build all base dataframes - execute functions
     df_base = BaseTransformDF()

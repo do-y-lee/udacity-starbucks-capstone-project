@@ -3,13 +3,17 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 from base_transforms import BaseTransformDF
+import config
 
 
-if __name__ == '__main__':
+def main():
     start_time = datetime.now()
-
     # read in raw transcript data
-    transcript = pd.read_json('data/transcript.json', orient='records', lines=True)
+    transcript = pd.read_json(os.path.join(config.DATA_DIR, config.TRANSCRIPT_FILE), orient='records', lines=True)
+    # read in raw offers data
+    df_portfolio = pd.read_json(os.path.join(config.DATA_DIR, config.PORTFOLIO_FILE), orient = 'records', lines = True)
+    df_portfolio.rename(columns={'id': 'offer_id'}, inplace=True)
+    df_portfolio['duration'] = df_portfolio['duration'] * 24
 
     # build all base dataframes - execute functions
     df_base = BaseTransformDF()
@@ -19,17 +23,12 @@ if __name__ == '__main__':
     df_received = df_base.create_df_base_received(df_transcript)
     df_viewed = df_base.create_df_base_viewed(df_transcript)
 
-    # read in raw offers data
-    df_portfolio = pd.read_json('data/portfolio.json', orient='records', lines=True)
-    df_portfolio.rename(columns={'id': 'offer_id'}, inplace=True)
-    df_portfolio['duration'] = df_portfolio['duration'] * 24
-
     # group-by operations
     offer_received = df_received.groupby('offer_id')['offer_received'].sum().reset_index()
     offer_viewed = df_viewed.groupby('offer_id')['offer_viewed'].sum().reset_index()
     offer_completed = df_completed.groupby('offer_id')['offer_completed'].sum().reset_index()
 
-    df_engagement_v1 = pd.merge(df_transactions, 
+    df_engagement_v1 = pd.merge(df_transactions,
                                 df_completed,
                                 how='inner',
                                 left_on=['customer_id', 'transaction_time'],
@@ -65,22 +64,19 @@ if __name__ == '__main__':
     offer_funnel_metrics = df_portfolio.merge(offer_funnel_subset, how='left', on='offer_id')
 
     # create data directory if not exists
-    curr_dir = os.getcwd()
-    data_dir = 'data'
-    Path(os.path.join(curr_dir, data_dir)).mkdir(parents=True, exist_ok=True)
-
-    # write df to gzipped csv file
-    file_name = 'starbucks_offers_funnel_analysis.csv.gz'
-    file_path = os.path.join(curr_dir, data_dir, file_name)
+    Path(os.path.join(config.DATA_DIR)).mkdir(parents=True, exist_ok=True)
+    file_path = os.path.join(config.DATA_DIR, config.OFFER_FUNNEL_FILE)
 
     try:
         offer_funnel_metrics.to_csv(file_path, index=False, compression='gzip')
-        print("Success: {} created.".format(file_name))
+        print("Success: {} created.".format(config.OFFER_FUNNEL_FILE))
         print("File_path_name: {}".format(file_path))
     except:
-        print("Error: {} failed to save.".format(file_name))
+        print("Error: {} failed to save.".format(config.OFFER_FUNNEL_FILE))
 
     # measure script run time
     print('Script_run_time: {} (hour:minute:second:microsecond)'.format((datetime.now() - start_time)))
 
 
+if __name__ == '__main__':
+    main()
