@@ -23,7 +23,6 @@ def output_train_model_stats(X_v3, feature_sets):
     """
     # make copy of X; input X is X_train_v3
     X_v3 = X_v3.copy()
-
     model_stats = {}
     column_names = ['accuracy', 'accuracy_cv_score', 'accuracy_cv_stddev', 'precision_score',
                     'recall_score', 'f1_score', 'roc_auc_score (cross_val_score)']
@@ -78,9 +77,7 @@ def output_train_model_stats(X_v3, feature_sets):
 
 
 def output_test_model_stats(X_v3, feature_sets):
-    # make copy of X_v3
     X_v3 = X_v3.copy()
-    # create empty dictionary
     model_stats = {}
     column_names = ['accuracy', 'precision', 'recall', 'f1', 'roc_auc', 'tn', 'fp', 'fn', 'tp']
 
@@ -140,6 +137,7 @@ def _calc_positive_y_pred_proba(df):
 
 # create ROC curve plot for all eight models
 def create_and_save_roc_curve(test_v3, feature_sets):
+    test_v3 = test_v3.copy()
     fig, ax = plt.subplots(figsize = (8, 8))
     for offer in feature_sets.keys():
         df_pred = pd.read_csv('{}/{}_test_predictions.csv.gz'.format(config.PREDICTIONS_DIR, offer), compression = 'gzip')
