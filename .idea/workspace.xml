@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a329008-3288-4991-aa64-32519c3d1d0c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output_model_stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/output_model_stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_predict_recommend/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_predict/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_predict_recommend/model_make_recommendation_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/recommend/model_make_recommendation_pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train_predict_recommend/model_train_predict_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_predict/model_train_predict_pipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +220,10 @@
       <workItem from="1622279676872" duration="11000" />
       <workItem from="1622279768370" duration="7684000" />
       <workItem from="1622355121202" duration="1123000" />
-      <workItem from="1622488095141" duration="1809000" />
+      <workItem from="1622488095141" duration="2739000" />
+      <workItem from="1622527965921" duration="88000" />
+      <workItem from="1622529507475" duration="195000" />
+      <workItem from="1622530327550" duration="256000" />
     </task>
     <servers />
   </component>
